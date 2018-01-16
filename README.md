@@ -38,6 +38,6 @@ make.top.equalTo(@(self.dynamicNavView.dynamicBottom));             make.left.ri
 >【4】为了连贯联动效果
 
 * `[self showDynamicBarAnimationWithScrollView:scrollView]; `
->该代码选择实现 需要导航折叠Animation 就要在该代理方法里面实现 不滚动就是默认大标题 【5】选择性实现
+>【5】选择性实现 该代码选择实现 需要导航折叠Animation 就要在该代理方法里面实现 不滚动就是默认大标题
 
 最后附上Demo的地址，[传送门](https://github.com/BigPoro/LargeTitle)。
