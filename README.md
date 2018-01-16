@@ -40,4 +40,13 @@ make.top.equalTo(@(self.dynamicNavView.dynamicBottom));             make.left.ri
 * `[self showDynamicBarAnimationWithScrollView:scrollView]; `
 >【5】选择性实现 该代码选择实现 需要导航折叠Animation 就要在该代理方法里面实现 不滚动就是默认大标题
 
+###   一点小改进
+因为我们的射鸡湿的图是完成照搬APP Store,所以我在大标题上添加了一个DetailTitle和一个titleRightView
+
+需要的话直接调用就可以
+
+    UISwitch *s = [[UISwitch alloc]init];
+    self.dynamicNavView.titleRightView = s;
+    self.dynamicNavView.detaileTitle = @"这是个小标题";
+
 最后附上Demo的地址，[传送门](https://github.com/BigPoro/LargeTitle)。
