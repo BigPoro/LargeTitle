@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53D0947720120B2A00E12C0C /* NormalNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D0946E20120B2A00E12C0C /* NormalNavView.m */; };
+		53D0947820120B2A00E12C0C /* UIView+GoAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D0947220120B2A00E12C0C /* UIView+GoAdd.m */; };
+		53D0947920120B2A00E12C0C /* DynamicBigTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D0947420120B2A00E12C0C /* DynamicBigTitleView.m */; };
+		53D0947A20120B2A00E12C0C /* UIViewController+DynamicBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D0947520120B2A00E12C0C /* UIViewController+DynamicBar.m */; };
+		53D0947B20120B2A00E12C0C /* DynamicNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D0947620120B2A00E12C0C /* DynamicNavView.m */; };
 		53D5D901200C4B2E00964295 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D900200C4B2E00964295 /* AppDelegate.m */; };
 		53D5D904200C4B2E00964295 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D903200C4B2E00964295 /* ViewController.m */; };
 		53D5D907200C4B2E00964295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D5D905200C4B2E00964295 /* Main.storyboard */; };
@@ -17,11 +22,6 @@
 		53D5D933200C506500964295 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D929200C506500964295 /* FirstViewController.m */; };
 		53D5D934200C506500964295 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D92B200C506500964295 /* SecondViewController.m */; };
 		53D5D935200C506500964295 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D92C200C506500964295 /* ThirdViewController.m */; };
-		53D5D954200C949C00964295 /* NormalNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D949200C949C00964295 /* NormalNavView.m */; };
-		53D5D955200C949C00964295 /* UIViewController+DynamicBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D94A200C949C00964295 /* UIViewController+DynamicBar.m */; };
-		53D5D956200C949C00964295 /* DynamicBigTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D94C200C949C00964295 /* DynamicBigTitleView.m */; };
-		53D5D957200C949C00964295 /* UIView+GoAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D950200C949C00964295 /* UIView+GoAdd.m */; };
-		53D5D958200C949C00964295 /* DynamicNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D952200C949C00964295 /* DynamicNavView.m */; };
 		E258FF354C10EAC1E0DB11E5 /* libPods-BigTitle_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1F6D75168422AE085416AF /* libPods-BigTitle_Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +29,16 @@
 		10F452907F8CFF6FFA1377EC /* Pods-BigTitle_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTitle_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTitle_Demo/Pods-BigTitle_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		1D8CC97AB6E8BE3ED77C8EAD /* Pods-BigTitle_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTitle_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTitle_Demo/Pods-BigTitle_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		4F1F6D75168422AE085416AF /* libPods-BigTitle_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BigTitle_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D0946C20120B2A00E12C0C /* UIViewController+DynamicBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DynamicBar.h"; sourceTree = "<group>"; };
+		53D0946D20120B2A00E12C0C /* DynamicBigTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicBigTitleView.h; sourceTree = "<group>"; };
+		53D0946E20120B2A00E12C0C /* NormalNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalNavView.m; sourceTree = "<group>"; };
+		53D0946F20120B2A00E12C0C /* DynamicNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicNavView.h; sourceTree = "<group>"; };
+		53D0947120120B2A00E12C0C /* UIView+GoAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoAdd.h"; sourceTree = "<group>"; };
+		53D0947220120B2A00E12C0C /* UIView+GoAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoAdd.m"; sourceTree = "<group>"; };
+		53D0947320120B2A00E12C0C /* NormalNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalNavView.h; sourceTree = "<group>"; };
+		53D0947420120B2A00E12C0C /* DynamicBigTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicBigTitleView.m; sourceTree = "<group>"; };
+		53D0947520120B2A00E12C0C /* UIViewController+DynamicBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DynamicBar.m"; sourceTree = "<group>"; };
+		53D0947620120B2A00E12C0C /* DynamicNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicNavView.m; sourceTree = "<group>"; };
 		53D5D8FC200C4B2E00964295 /* BigTitle_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigTitle_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D5D8FF200C4B2E00964295 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53D5D900200C4B2E00964295 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,16 +58,6 @@
 		53D5D92B200C506500964295 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		53D5D92C200C506500964295 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		53D5D936200C50BB00964295 /* BigTitle_Demo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigTitle_Demo.pch; sourceTree = "<group>"; };
-		53D5D949200C949C00964295 /* NormalNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalNavView.m; sourceTree = "<group>"; };
-		53D5D94A200C949C00964295 /* UIViewController+DynamicBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DynamicBar.m"; sourceTree = "<group>"; };
-		53D5D94B200C949C00964295 /* DynamicNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicNavView.h; sourceTree = "<group>"; };
-		53D5D94C200C949C00964295 /* DynamicBigTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicBigTitleView.m; sourceTree = "<group>"; };
-		53D5D94D200C949C00964295 /* UIViewController+DynamicBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DynamicBar.h"; sourceTree = "<group>"; };
-		53D5D94F200C949C00964295 /* UIView+GoAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoAdd.h"; sourceTree = "<group>"; };
-		53D5D950200C949C00964295 /* UIView+GoAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoAdd.m"; sourceTree = "<group>"; };
-		53D5D951200C949C00964295 /* NormalNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalNavView.h; sourceTree = "<group>"; };
-		53D5D952200C949C00964295 /* DynamicNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicNavView.m; sourceTree = "<group>"; };
-		53D5D953200C949C00964295 /* DynamicBigTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicBigTitleView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +72,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53D0946B20120B2A00E12C0C /* DynamicNav */ = {
+			isa = PBXGroup;
+			children = (
+				53D0946C20120B2A00E12C0C /* UIViewController+DynamicBar.h */,
+				53D0947520120B2A00E12C0C /* UIViewController+DynamicBar.m */,
+				53D0947320120B2A00E12C0C /* NormalNavView.h */,
+				53D0947620120B2A00E12C0C /* DynamicNavView.m */,
+				53D0946D20120B2A00E12C0C /* DynamicBigTitleView.h */,
+				53D0947420120B2A00E12C0C /* DynamicBigTitleView.m */,
+				53D0946F20120B2A00E12C0C /* DynamicNavView.h */,
+				53D0946E20120B2A00E12C0C /* NormalNavView.m */,
+				53D0947020120B2A00E12C0C /* Optional */,
+			);
+			path = DynamicNav;
+			sourceTree = "<group>";
+		};
+		53D0947020120B2A00E12C0C /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				53D0947120120B2A00E12C0C /* UIView+GoAdd.h */,
+				53D0947220120B2A00E12C0C /* UIView+GoAdd.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
 		53D5D8F3200C4B2E00964295 = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +118,7 @@
 		53D5D8FE200C4B2E00964295 /* BigTitle_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				53D5D948200C949C00964295 /* DynamicNav */,
+				53D0946B20120B2A00E12C0C /* DynamicNav */,
 				53D5D924200C506500964295 /* Page */,
 				53D5D8FF200C4B2E00964295 /* AppDelegate.h */,
 				53D5D900200C4B2E00964295 /* AppDelegate.m */,
@@ -122,32 +147,6 @@
 				53D5D92B200C506500964295 /* SecondViewController.m */,
 			);
 			path = Page;
-			sourceTree = "<group>";
-		};
-		53D5D948200C949C00964295 /* DynamicNav */ = {
-			isa = PBXGroup;
-			children = (
-				53D5D951200C949C00964295 /* NormalNavView.h */,
-				53D5D949200C949C00964295 /* NormalNavView.m */,
-				53D5D953200C949C00964295 /* DynamicBigTitleView.h */,
-				53D5D94C200C949C00964295 /* DynamicBigTitleView.m */,
-				53D5D94B200C949C00964295 /* DynamicNavView.h */,
-				53D5D952200C949C00964295 /* DynamicNavView.m */,
-				53D5D94D200C949C00964295 /* UIViewController+DynamicBar.h */,
-				53D5D94A200C949C00964295 /* UIViewController+DynamicBar.m */,
-				53D5D94E200C949C00964295 /* Optional */,
-			);
-			name = DynamicNav;
-			path = "../../../../Downloads/iOS11_BigNavigationBarTitle-master/iOS11_BigNavTitleDemo/iOS11_BigNavTitleDemo/DynamicNav";
-			sourceTree = "<group>";
-		};
-		53D5D94E200C949C00964295 /* Optional */ = {
-			isa = PBXGroup;
-			children = (
-				53D5D94F200C949C00964295 /* UIView+GoAdd.h */,
-				53D5D950200C949C00964295 /* UIView+GoAdd.m */,
-			);
-			path = Optional;
 			sourceTree = "<group>";
 		};
 		65F1D8AB8873C501B4AFA930 /* Frameworks */ = {
@@ -292,15 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D0947820120B2A00E12C0C /* UIView+GoAdd.m in Sources */,
+				53D0947A20120B2A00E12C0C /* UIViewController+DynamicBar.m in Sources */,
 				53D5D934200C506500964295 /* SecondViewController.m in Sources */,
+				53D0947920120B2A00E12C0C /* DynamicBigTitleView.m in Sources */,
+				53D0947B20120B2A00E12C0C /* DynamicNavView.m in Sources */,
 				53D5D935200C506500964295 /* ThirdViewController.m in Sources */,
 				53D5D933200C506500964295 /* FirstViewController.m in Sources */,
-				53D5D957200C949C00964295 /* UIView+GoAdd.m in Sources */,
-				53D5D954200C949C00964295 /* NormalNavView.m in Sources */,
-				53D5D955200C949C00964295 /* UIViewController+DynamicBar.m in Sources */,
+				53D0947720120B2A00E12C0C /* NormalNavView.m in Sources */,
 				53D5D904200C4B2E00964295 /* ViewController.m in Sources */,
-				53D5D956200C949C00964295 /* DynamicBigTitleView.m in Sources */,
-				53D5D958200C949C00964295 /* DynamicNavView.m in Sources */,
 				53D5D90F200C4B2E00964295 /* main.m in Sources */,
 				53D5D932200C506500964295 /* FourViewController.m in Sources */,
 				53D5D901200C4B2E00964295 /* AppDelegate.m in Sources */,
