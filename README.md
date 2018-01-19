@@ -18,7 +18,7 @@
 首先基本思路是这个[哥们的](http://www.cnblogs.com/someonelikeyou/p/7353872.html),
 然后在阅读源码时结合实际需求，做出了一点改进。
 
-- 首先，自定义了NormalNavView、BigTitleView，NormalNavView负责充当NavigationBar, BigTitleView负责充当大标题
+- 首先，自定义了NormalNavView、BigTitleView，NormalNavView负责充当NavigationBar, BigTitleView负责充当大标题，隐藏系统的navigationBar
 - 然后，将这两个控件添加到一个DynamicNavView的视图上，构成完整的大标题模块。
 - 最后，写了个UIViewController的分类，通过Runtime,将DynamicNavView绑定为UIViewController的一个属性
 
